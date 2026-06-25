@@ -21,3 +21,4 @@ Then set destination folder for ui files to the /libraries/ui folder (make sure 
 Then just set Arduino path to the folder's root (which has libraries and ui folder) and flash your board
 
 
+<img width="4096" height="3072" alt="IMG_20260626_033049389" src="https://github.com/user-attachments/assets/2617fbb0-2d84-4874-bc46-283a9b418828" />
