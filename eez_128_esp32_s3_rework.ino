@@ -91,13 +91,9 @@ void setup(){
     };
 
     esp_timer_handle_t lvgl_tick_timer = NULL;
-    Serial.println("2");
     esp_timer_create(&lvgl_tick_timer_args, &lvgl_tick_timer);
-    Serial.println("3");
     esp_timer_start_periodic(lvgl_tick_timer, EXAMPLE_LVGL_TICK_PERIOD_MS * 1000);
-    Serial.println("4");
     ui_init();
-    Serial.println("5");
   
     xTaskCreatePinnedToCore(uiTask, "UI Task", 4096, NULL, 1, NULL, 1);
     Serial.println("Setup done");
@@ -106,7 +102,7 @@ void setup(){
 
 
 void loop(){
-    // lv_timer_handler();
+    // lv_timer_handler(); // (if using freertos task uiTask, this is not needed, hence commented out)
     ui_tick();
     delay(5);
 }
