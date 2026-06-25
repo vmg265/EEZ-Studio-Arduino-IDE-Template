@@ -11,10 +11,10 @@ Download appimage of eez studio and run it with first chmod +x eez-studio.AppIma
 
 After this code is running on your board, you can start developing the UI in EEZ studios
 
-After you make a new project in eez studio, you can go into project settings, set display dimensions, 
+After you make a new project in eez studio, you can go into project settings, set display dimensions and the screen dimensions (in this board's case 240x240 and circular display enabled)
 
-Set lvgl include path to lvgl. (remove lvgl/)
+Set 'lvgl include path' to lvgl. (remove lvgl/)
 
 Then set destination folder for ui files to the /libraries/ui folder (make sure to delete its old contents everytime you build the ui with eez studio)
 
-Then just set Arduino path to this folder's root with libraries and ui folder and just flash the eez studio LVGL UI
+Then just set Arduino path to the folder's root (which has libraries and ui folder) and flash your board
