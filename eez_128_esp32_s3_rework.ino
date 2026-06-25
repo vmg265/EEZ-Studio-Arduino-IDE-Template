@@ -102,7 +102,9 @@ void setup(){
 
 
 void loop(){
-    // lv_timer_handler(); // (if using freertos task uiTask, this is not needed, hence commented out)
+    // (if using freertos task uiTask, this is not needed, hence commented out)
+    // lv_timer_handler(); 
+    
     ui_tick();
     delay(5);
 }
