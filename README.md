@@ -5,7 +5,7 @@ I keep needing to start a new prototype project every now and then with these bo
 EEZ studio - https://www.envox.eu/studio/studio-introduction/
 
 The board used- https://www.waveshare.com/esp32-s3-lcd-1.28.htm
-https://www.waveshare.com/wiki/ESP32-S3-LCD-1.28 (please refer to the usage instructions for the specific esp32 board package version 2.0.12 and other settings for the ide)
+https://www.waveshare.com/wiki/ESP32-S3-LCD-1.28 (please refer to the usage instructions for the specific esp32 board package version 2.0.12, board settings for the ide and the required libraries like lvgl and tft_espi if the instructions specifiy a non-standard version)
 
 Download appimage of eez studio and run it with first chmod +x eez-studio.AppImage
 ./eez-studio.AppImage
