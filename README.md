@@ -1,5 +1,6 @@
 # EEZ-Studio-Arduino-IDE-Template
-A template to start developing a LVGL based UI with EEZ studio program and flash it using Arduino IDE. The example used here is for the Waveshare esp32-s3 1.28inch no touch LCD dev board, but you may adapt it to your display and platform
+A boilerplate template to start developing a LVGL based UI with EEZ studio program and flash it using Arduino IDE. The example used here is for the Waveshare esp32-s3 1.28inch no touch LCD dev board, but you may adapt it to your display and platform
+I keep needing to start a new prototype project every now and then with these boards and I prefer using EEZ studios (other than Squareline) for the UI dev, and I wanted to make a template project for the same purpose. Feel free to clone and make necessary changes to base your EEZ studios project 
 
 EEZ studio - https://www.envox.eu/studio/studio-introduction/
 
@@ -18,3 +19,5 @@ Set 'lvgl include path' to lvgl. (remove lvgl/)
 Then set destination folder for ui files to the /libraries/ui folder (make sure to delete its old contents everytime you build the ui with eez studio)
 
 Then just set Arduino path to the folder's root (which has libraries and ui folder) and flash your board
+
+
