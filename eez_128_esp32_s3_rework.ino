@@ -1,3 +1,4 @@
+///template for eez studio project with arduino ide and esp32s3 1.28inch lcd waveshare dev board
 #include <lvgl.h>
 #include "lv_conf.h"
 #include <Wire.h>
